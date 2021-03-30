@@ -4,5 +4,7 @@
 @import '../Components/About/about';
 
 body {
-  background-color: $favColor;
-} 
+  background-color: $backgroundColor;
+  font-family: $secondaryFont;
+  color: $primaryTextColor;
+}

@@ -1,3 +1,5 @@
+@import '../../styles/variables';
+
 #about-page {
     width: 75%;
     margin: auto;
@@ -13,6 +15,7 @@
     grid-area: intro;
     justify-self: center;
     margin-top: 50px;
+    font-family: $primaryFont;
 }
 
 #headshot {
