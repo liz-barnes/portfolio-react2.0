@@ -1,0 +1,40 @@
+#about-page {
+    width: 75%;
+    margin: auto;
+    display: grid;
+    justify-content: center;
+      grid-template-columns: 1fr 1fr;
+      grid-template-areas: 
+        "intro intro"
+        "headshot blurb";
+}
+
+#intro {
+    grid-area: intro;
+    justify-self: center;
+    margin-top: 50px;
+}
+
+#about-me-section{
+    margin-top: 75px;
+}
+
+#headshot {
+    grid-area: headshot;
+    width: 65%;
+    border-radius: 100%;
+}
+
+#about-me-blurb {
+    grid-area: blurb;
+    width: 100%;
+    text-align: center;
+
+}
+
+#headshot, #about-me-blurb {
+    margin-top: 75px;
+    justify-self: center;
+    align-self: center;
+}
+
