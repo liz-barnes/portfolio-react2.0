@@ -1,7 +1,12 @@
 @import 'variables';
 @import '~bootstrap/dist/css/bootstrap.min.css';
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
+@import '../Components/About/about';
 
 body {
-  background-color: $favColor;
-} 
+  background-color: $backgroundColor;
+  font-family: $secondaryFont;
+  color: $primaryTextColor;
+  width: 75%;
+  margin: auto;
+}
