@@ -1,7 +1,6 @@
 @import '../../styles/variables';
 
 #about-page {
-    width: 75%;
     margin: auto;
     display: grid;
     justify-content: center;
@@ -15,7 +14,23 @@
     grid-area: intro;
     justify-self: center;
     margin-top: 50px;
+    background-color: $primaryColor;
+    color: $secondaryTextColor;
+    width: 100%;
+    text-align: center;
+}
+
+.heading {
     font-family: $primaryFont;
+    padding-top: 5px;
+    font-size: 46px;
+    margin: 0px;
+}
+
+.title {
+    font-size: 24px;
+    margin: 0px;
+    padding-bottom: 10px;
 }
 
 #headshot {

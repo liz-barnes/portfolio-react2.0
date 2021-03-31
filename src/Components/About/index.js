@@ -4,8 +4,8 @@ export default function About() {
   return (
     <div id="about-page" className="page">
       <div id="intro">
-        <h1>I'm Liz,</h1>
-        <p>a software developer</p>
+        <h1 className="heading">I'm Liz,</h1>
+        <p className="title">a software developer</p>
       </div>
           <img
             id="headshot"
