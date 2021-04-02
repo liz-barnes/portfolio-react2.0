@@ -1,0 +1,23 @@
+@import '../../styles/variables';
+.navbar {
+    padding-top: 25px;
+    width: 75%;
+    margin: auto;
+}
+
+.navbar-item {
+    color: $primaryTextColor;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.navbar-item:hover {
+    color: $primaryColor;
+    text-decoration: none;
+    font-weight: bolder;
+}
+
+.navbar-item:active {
+    color: $primaryColor;
+    font-weight: bold;
+}
