@@ -1,4 +1,5 @@
 import React from 'react';
+import headshot from '../../helpers/images/headshot.png';
 
 export default function About() {
   return (
@@ -9,7 +10,7 @@ export default function About() {
       </div>
           <img
             id="headshot"
-            src="https://peterhurley.com/sites/default/files/styles/big/public/photos/2015/02/37/kearrancpeterhurley.jpg?itok=PZbogs-G"
+            src={headshot}
             alt=""
           />
           <p id="about-me-blurb">

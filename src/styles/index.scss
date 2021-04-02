@@ -3,6 +3,7 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '../Components/About/about';
 @import '../Components/Footer/footer';
+@import '../Components//Nav/navbar';
 
 body {
   background-color: $backgroundColor;
@@ -10,4 +11,5 @@ body {
   color: $primaryTextColor;
   width: 75%;
   margin: auto;
+  font-weight: lighter;
 }
