@@ -37,11 +37,13 @@
     grid-area: headshot;
     width: 65%;
     border-radius: 100%;
+    max-width: 250px;
 }
 
 #about-me-blurb {
     grid-area: blurb;
     text-align: center;
+    padding-right: 50px;
 }
 
 #headshot, #about-me-blurb {
