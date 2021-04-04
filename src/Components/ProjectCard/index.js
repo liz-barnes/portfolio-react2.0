@@ -1,39 +1,43 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 export default function ProjectCard({ projectData }) {
   return (
-    <div
-      className="project-card"
-      style={{ backgroundImage: `url(${projectData.screenshot})` }}
-    >
-      <div className="hover-content">
-        <p className="project-type">{projectData.type}</p>
-        <h6 className="project-title">{projectData.title}</h6>
-        <p>{projectData.description}</p>
-        <div className="project-btn-container mt-4">
-        <a
-            href={projectData.githubProject}
-            target="_blank"
-            rel="noreferrer"
-            className="outline project-btn view-project-btn"
-            id={projectData.firebaseKey}
-          >
-            view project
-          </a><a
-            href={projectData.url}
-            target="_blank"
-            rel="noreferrer"
-            className="outline project-btn visit-site-btn"
-            id={projectData.firebaseKey}
-          >
-            visit site
-          </a>
+    <Link to={`/work/${projectData.id}`}>
+        <div
+        id={projectData.id}
+        className="project-card"
+        style={{ backgroundImage: `url(${projectData.screenshot})` }}
+        >
+        <div className="hover-content">
+            <p className="project-type">{projectData.type}</p>
+            <h6 className="project-title">{projectData.title}</h6>
+            <p>{projectData.description}</p>
+            <div className="project-btn-container mt-4">
+            <a
+                href={projectData.githubProject}
+                target="_blank"
+                rel="noreferrer"
+                className="outline project-btn view-project-btn"
+                id={projectData.id}
+            >
+                view project
+            </a><a
+                href={projectData.url}
+                target="_blank"
+                rel="noreferrer"
+                className="outline project-btn visit-site-btn"
+                id={projectData.id}
+            >
+                visit site
+            </a>
+            </div>
         </div>
-      </div>
-      {/* <div className="project-background" style={{ backgroundImage: `url(${projectData.screenshot})` }}>
-      </div> */}
-      {/* <img src={projectData.screenshot} alt="screenshot of project" /> */}
-    </div>
+        {/* <div className="project-background" style={{ backgroundImage: `url(${projectData.screenshot})` }}>
+        </div> */}
+        {/* <img src={projectData.screenshot} alt="screenshot of project" /> */}
+        </div>
+    </Link>
   );
 }
 
