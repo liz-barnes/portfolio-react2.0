@@ -2,9 +2,36 @@ import React from 'react';
 
 export default function ProjectCard({ projectData }) {
   return (
-    <div className="project-card">
-      <div className="project-background" style={{ backgroundImage: `url(${projectData.screenshot})` }}>
+    <div
+      className="project-card"
+      style={{ backgroundImage: `url(${projectData.screenshot})` }}
+    >
+      <div class="hover-content">
+        <p class="project-type">{projectData.type}</p>
+        <h6 class="project-title">{projectData.title}</h6>
+        <p>{projectData.description}</p>
+        <div class="project-btn-container mt-4">
+        <a
+            href={projectData.githubProject}
+            target="_blank"
+            rel="noreferrer"
+            class="outline project-btn visit-site-btn"
+            id={projectData.firebaseKey}
+          >
+            view project
+          </a><a
+            href={projectData.url}
+            target="_blank"
+            rel="noreferrer"
+            class="outline project-btn visit-site-btn"
+            id={projectData.firebaseKey}
+          >
+            visit site
+          </a>
+        </div>
       </div>
+      {/* <div className="project-background" style={{ backgroundImage: `url(${projectData.screenshot})` }}>
+      </div> */}
       {/* <img src={projectData.screenshot} alt="screenshot of project" /> */}
     </div>
   );
