@@ -45,6 +45,40 @@
     transform: translateY(0px);
   }
 
+  .project-type {
+    // font-family: $secondaryFont;
+    font-size: 28px;
+    font-style: italic;
+  
+  }
+
+  .project-title {
+    font-family: $primaryFont;
+    font-size: 58px;
+    letter-spacing: 1px;
+  }
+  
+  .project-btn {
+    border: 0.5px solid white;
+    color: white;
+    padding: 7px 10px;
+    margin: 5px;
+    font-size: 18px;
+  }
+  
+  .project-btn:hover {
+    background-color: $primaryColor;
+    // transform: translate(50px, 100px);
+  }
+  
+  a {
+
+  }
+  a:hover {
+    text-decoration: none;
+    color: white;
+  }
+
 // .project-background {
 //     width: 100%;
 //     height: 468px;

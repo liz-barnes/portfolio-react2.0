@@ -6,16 +6,16 @@ export default function ProjectCard({ projectData }) {
       className="project-card"
       style={{ backgroundImage: `url(${projectData.screenshot})` }}
     >
-      <div class="hover-content">
-        <p class="project-type">{projectData.type}</p>
-        <h6 class="project-title">{projectData.title}</h6>
+      <div className="hover-content">
+        <p className="project-type">{projectData.type}</p>
+        <h6 className="project-title">{projectData.title}</h6>
         <p>{projectData.description}</p>
-        <div class="project-btn-container mt-4">
+        <div className="project-btn-container mt-4">
         <a
             href={projectData.githubProject}
             target="_blank"
             rel="noreferrer"
-            class="outline project-btn visit-site-btn"
+            className="outline project-btn view-project-btn"
             id={projectData.firebaseKey}
           >
             view project
@@ -23,7 +23,7 @@ export default function ProjectCard({ projectData }) {
             href={projectData.url}
             target="_blank"
             rel="noreferrer"
-            class="outline project-btn visit-site-btn"
+            className="outline project-btn visit-site-btn"
             id={projectData.firebaseKey}
           >
             visit site
