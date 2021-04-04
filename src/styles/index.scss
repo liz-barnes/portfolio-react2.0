@@ -3,7 +3,9 @@
 @import "~@fortawesome/fontawesome-free/css/all.min.css";
 @import '../Components/About/about';
 @import '../Components/Footer/footer';
-@import '../Components//Nav/navbar';
+@import '../Components/Nav/navbar';
+@import '../Components/ProjectCard/projectCard';
+@import '../Components/ProjectPage/projectPage';
 
 body {
   background-color: $backgroundColor;
