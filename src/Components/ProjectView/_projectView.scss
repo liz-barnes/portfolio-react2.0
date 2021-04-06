@@ -1,21 +1,20 @@
-.project-view-container {
-//   margin: auto;
-//   width: 65%;
-//   text-align: left;
-//   margin-top: 50px;
-//   margin-bottom: 50px;
-}
-
-.project-title {
-//   text-align: left;
-//   font-weight: bolder;
-}
-
-.project-view-container h6 {
-//   font-weight: bolder;
-//   margin-top: 25px;
-}
-
 h6 {
     margin-top: 50px;
+}
+
+.view-code-link-container {
+    margin-top: 50px;
+}
+
+a.view-code-link {
+    color: $primaryTextColor;
+    font-size: 16px;
+    font-family: $secondaryFont;
+    font-weight: normal;
+    border: 1px solid $primaryTextColor;
+    padding: 5px 10px;
+}
+
+a.view-code-link:hover {
+    background-color: $primaryColor;
 }

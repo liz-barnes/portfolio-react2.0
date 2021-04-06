@@ -15,17 +15,30 @@ export default function ProjectView({ props }) {
     <div>
       <div id="project-view-container">
         <h3 className="project-title">{project[0].title}</h3>
-        <h5>{project[0].type}</h5>
         <h6>demo</h6>
         <p className="project-description">{project[0].description}</p>
         <div className="project-demo">
-          <img src="https://recordit.co/6JB7D7vaDc.gif" alt="Project demo gif" />
+          <img
+            src="https://recordit.co/6JB7D7vaDc.gif"
+            alt="Project demo gif"
+          />
         </div>
+        <p>{project[0].typeOfProject}</p>
         <h6>role</h6>
         <p className="project-role">{project[0].role}</p>
         <h6>tools</h6>
         <p className="project-tools">{project[0].technologiesUsed}</p>
-        <h6>demo</h6>
+        <div className="view-code-link-container">
+            <a
+            href={project[0].githubProject}
+            target="_blank"
+            rel="noreferrer"
+            className="view-code-link"
+            //   id={projectData.id}
+            >
+            view code
+            </a>
+        </div>
       </div>
       {/* {console.warn('id', useParams)} */}
     </div>
