@@ -5,6 +5,7 @@ import projects from '../../helpers/data/projectData';
 
 export default function Work() {
   const availableProjects = projects.filter((project) => project.available);
+
   return (
     <div className="projects-container">
       {availableProjects ? (
