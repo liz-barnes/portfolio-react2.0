@@ -1,6 +1,5 @@
 .project-card {
     margin: 10px 0px;
-    // width: 75%;
     width: 50em;
     height: 22em;
     max-width: 650px;
@@ -54,6 +53,7 @@
     font-family: $primaryFont;
     font-size: 58px;
     letter-spacing: 1px;
+    margin-top: 50px;
   }
   
   .project-btn {
@@ -66,12 +66,9 @@
   
   .project-btn:hover {
     background-color: $primaryColor;
-    // transform: translate(50px, 100px);
+    transform: translate(50px, 100px);
   }
   
-  a {
-
-  }
   a:hover {
     text-decoration: none;
     color: white;

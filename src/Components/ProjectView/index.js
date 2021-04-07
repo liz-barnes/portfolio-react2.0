@@ -13,13 +13,13 @@ export default function ProjectView({ props }) {
   //   const project = projects.filter((proj) => proj.id === projectId);
   return (
     <div>
-      <div id="project-view-container">
+      <div id="project-view-container" className="page">
         <h3 className="project-title">{project[0].title}</h3>
         <h6>demo</h6>
         <p className="project-description">{project[0].description}</p>
         <div className="project-demo">
           <img
-            src="https://recordit.co/6JB7D7vaDc.gif"
+            src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
             alt="Project demo gif"
           />
         </div>

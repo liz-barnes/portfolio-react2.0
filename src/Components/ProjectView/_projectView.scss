@@ -7,14 +7,17 @@ h6 {
 }
 
 a.view-code-link {
-    color: $primaryTextColor;
+    color: $backgroundColor;
     font-size: 16px;
     font-family: $secondaryFont;
     font-weight: normal;
-    border: 1px solid $primaryTextColor;
+    // border: 1px solid $primaryTextColor;
+    background-color: $primaryColor;
     padding: 5px 10px;
 }
 
 a.view-code-link:hover {
+    color: $primaryTextColor;
     background-color: $primaryColor;
+    // border: 1px solid $primaryTextColor;
 }

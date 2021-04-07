@@ -12,7 +12,6 @@ export default function ProjectCard({ projectData }) {
         <div className="hover-content">
           <p className="project-type">{projectData.type}</p>
           <h6 className="project-title">{projectData.title}</h6>
-          <p>{projectData.description}</p>
           <div className="project-btn-container mt-4">
           <Link
             to={`/work/${projectData.id}`} params={{ project: projectData }} className="project-btn"
