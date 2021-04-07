@@ -1,0 +1,23 @@
+h6 {
+    margin-top: 50px;
+}
+
+.view-code-link-container {
+    margin-top: 50px;
+}
+
+a.view-code-link {
+    color: $backgroundColor;
+    font-size: 16px;
+    font-family: $secondaryFont;
+    font-weight: normal;
+    // border: 1px solid $primaryTextColor;
+    background-color: $primaryColor;
+    padding: 5px 10px;
+}
+
+a.view-code-link:hover {
+    color: $primaryTextColor;
+    background-color: $primaryColor;
+    // border: 1px solid $primaryTextColor;
+}
