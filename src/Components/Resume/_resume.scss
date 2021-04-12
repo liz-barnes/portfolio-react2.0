@@ -1,0 +1,22 @@
+.outro {
+    margin: 50px;
+    text-align: center;
+    font-weight: lighter;
+}
+
+.pdf-button-container {
+    display: flex;
+    justify-content: center;
+}
+
+.pdf-link {
+    color: $secondaryTextColor;
+    background-color: $primaryColor;
+    padding: 10px 15px;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+.pdf-link:hover {
+    color: $primaryTextColor;
+}
