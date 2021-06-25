@@ -11,38 +11,35 @@ footer {
     text-align: center;
     bottom: 0;
     z-index: 3;
+    margin-bottom: 5px;
   }
   
-  .footer-icons-container ul {
+  .footer-icons-container {
     display: flex;
     text-align: center;
     padding: 0px !important;
   }
 
-  .footer-icons-container li {
-    // position: relative;
-    display: block;
-    color: $primaryColor;
-    font-size: 35px;
-    height: 35px;
-    width: 35px;
-    // line-height: 60px;
-    // border-radius: 50%;
-    margin: 0px 15px;
-    z-index: 1;
-  }
   .footer-icons-container a {
     color: $primaryColor;
+     display: block;
+     color: $primaryColor;
+     font-size: 35px;
+     height: 35px;
+     width: 35px;
+     margin: 0px 15px;
+     z-index: 1;
   }
+
   .footer-icons-container a:hover {
     color: $secondaryColor;
   }
+
   .footer-icons-container ul li::before {
     position: absolute;
     content: "";
     top: 0;
     left: 0;
-    // background: $primaryColor;
     height: 100%;
     width: 100%;
     border-radius: 50%;
