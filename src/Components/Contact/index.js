@@ -18,10 +18,7 @@ export default function Contact() {
 
   return (
     <div className="Contact page">
-      <div className='contact-form-banner'>
-        <h1 className='contact-form-header'>Contact Us</h1>
-        <p className='email'>nashvilleshineulti@gmail.com</p>
-      </div>
+      <h1>Contact</h1>
       <div class="contact-form">
         <form id="contact-form" onSubmit={sendEmail}>
             <input name="name" type="text" className="form-control" placeholder="Name" required />
