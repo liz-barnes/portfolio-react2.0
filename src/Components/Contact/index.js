@@ -18,7 +18,7 @@ export default function Contact() {
 
   return (
     <div className="Contact page">
-      <h1>Contact</h1>
+      <h1>Get in touch!</h1>
       <div class="contact-form">
         <form id="contact-form" onSubmit={sendEmail}>
             <input name="name" type="text" className="form-control" placeholder="Name" required />
