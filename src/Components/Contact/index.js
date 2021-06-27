@@ -17,9 +17,9 @@ export default function Contact() {
   // TO DO: Submit success pop up
 
   return (
-    <div className="Contact page">
+    <div className="contact-page page">
       <h1>Get in touch!</h1>
-      <div class="contact-form">
+      <div class="contact-form-container">
         <form id="contact-form" onSubmit={sendEmail}>
             <input name="name" type="text" className="form-control" placeholder="Name" required />
             <input name="email" type="text" className="form-control" placeholder="Email" required />

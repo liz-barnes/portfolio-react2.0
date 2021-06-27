@@ -1,3 +1,20 @@
+.contact-page {
+    width: 75%;
+    margin: auto;
+}
+
+.contact-form-container {
+    margin-top: 25px;
+}
+
+input.form-control::placeholder, textarea.form-control::placeholder {
+    color: #c2c2c2;
+}
+
+.form-control {
+    margin: 10px 0px;
+  }
+
 .submit-button {
     color: $backgroundColor;
     font-size: 16px;

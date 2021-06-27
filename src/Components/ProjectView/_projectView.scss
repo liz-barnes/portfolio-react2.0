@@ -21,3 +21,8 @@ a.view-code-link:hover {
     background-color: $primaryColor;
     // border: 1px solid $primaryTextColor;
 }
+
+.project-screenshot {
+    max-width: 750px;
+    background-size: contain;
+}

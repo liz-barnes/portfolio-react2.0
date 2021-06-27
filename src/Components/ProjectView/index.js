@@ -15,15 +15,16 @@ export default function ProjectView({ props }) {
     <div>
       <div id="project-view-container" className="page">
         <h3 className="project-title">{project[0].title}</h3>
-        <h6>demo</h6>
+        <h6>user experience</h6>
         <p className="project-description">{project[0].description}</p>
         <div className="project-demo">
-          <img
+          <img className='project-screenshot' src={project[0].screenshot} alt='screenshot of project'/>
+          {/* <img
             src="https://media.giphy.com/media/26tn33aiTi1jkl6H6/giphy.gif"
             alt="Project demo gif"
-          />
+          /> */}
         </div>
-        <p>{project[0].typeOfProject}</p>
+        <p className='mt-2'>{project[0].typeOfProject}</p>
         <h6>role</h6>
         <p className="project-role">{project[0].role}</p>
         <h6>tools</h6>
