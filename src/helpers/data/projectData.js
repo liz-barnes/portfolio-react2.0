@@ -1,3 +1,6 @@
+/* eslint-disable max-len */
+
+// TO DO: Fix scroll, page shows where you last ended before clickign to new page
 import zenterest from '../images/zenterest-screenshot.png';
 import baguette from '../images/le-baguette-screenshot.png';
 import freelancer from '../images/freelancer-screenshot.png';
@@ -75,17 +78,20 @@ const projects = [
     type: 'website',
     typeOfProject: 'Personal project',
     screenshot: zenterest,
-    description: 'User can create boards and add pins to those boards.',
-    technologiesUsed: 'HTML | CSS | JavaScript | JQuery | SASS | Firebase',
+    description:
+      'This project is a simplified version of Pinterest. Users can create personalized boards and add pins to those boards with full CRUD functionality.',
+    technologiesUsed:
+      'HTML | CSS | JavaScript | JQuery | REACT | SASS | Firebase',
     available: true,
     url: 'https://pinterest-5a315.web.app/#',
     githubProject: 'https://github.com/liz-barnes/zenterest.git',
     githubUrl: '',
+    role: 'Project Management | Front-end Development | Design',
   },
   {
     available: true,
     description:
-      'Unauthorized user can only read data. Authorized user can create, update and delete data.',
+      'This restaurant dashboard was created for management and guest to use. Management, once authorized, has full CRUD functionality on menu items, reservations and staff members. Guests can create a reservation and view the menu items and staff members.',
     githubProject:
       'https://github.com/liz-barnes/michelin-star-restaurant-dashboard-michelin-star-restaurant-dashboard',
     githubUrl: '',
@@ -96,11 +102,12 @@ const projects = [
     type: 'website',
     typeOfProject: 'Group project',
     url: 'https://michelin-star-35c92.web.app/',
+    role: 'Front-end Development | Design | User Experience',
   },
   {
     available: true,
     description:
-      "On login, 'Events' tab appears in the navigation. User can create, read, update and delete events and their details.",
+      'Authenticated users have full CRUD capabilities on souvenirs, staff, shows, food and events. Guests can view staff, souvenirs, shows and food.',
     githubProject:
       'https://github.com/liz-barnes/renaissance-fair-dashboard-renaissance-fair-dashboard',
     githubUrl: '',
@@ -111,6 +118,7 @@ const projects = [
     type: 'website',
     typeOfProject: 'Group project',
     url: 'https://freelancer-f77ce.web.app/',
+    role: 'Front-end Development | User Experience | Project Management',
   },
 ];
 
